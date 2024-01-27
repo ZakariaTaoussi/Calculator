@@ -1,0 +1,78 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./—Pngtree—hand\ drawn\ math\ education\ calculator_1178880\ \(1\).jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.main {
+    width: 300px;
+    background-color: #d4d4d4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.result span {
+    font-size: 24px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.clear {
+    grid-column: span 2;
+    background-color: #f44336;
+    color: #fff;
+}
+
+.negative {
+    background-color: #ccc;
+}
+
+.percent, .sign, .equal {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+.numbers {
+    background-color: #e0e0e0;
+}
+
+.Zero {
+    grid-column: span 2;
+}
+
+.comma {
+    background-color: #e0e0e0;
+}
